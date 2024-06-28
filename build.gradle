@@ -25,7 +25,7 @@ repositories {
     mavenCentral() { metadataSources { mavenPom(); ignoreGradleMetadataRedirection() } }
 }
 
-group 'org.revapi.gradle.revapi'
+group 'org.revapi'
 // TODO read the plugin from GH action
 // version System.env.CIRCLE_TAG ?: gitVersion()
 version '1.8.0'
@@ -81,7 +81,7 @@ gradlePlugin {
         revapi {
             id = 'org.revapi.revapi-gradle-plugin'
             displayName = 'API/ABI backwards compatibility for Java libraries using Revapi'
-            implementationClass = 'com.palantir.gradle.revapi.RevapiPlugin'
+            implementationClass = 'org.revapi.gradle.RevapiPlugin'
             tags.set(['versions'])
         }
     }

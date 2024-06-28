@@ -1,4 +1,4 @@
-<#-- @ftlvariable name="results" type="com.palantir.gradle.revapi.AnalysisResults" -->
+<#-- @ftlvariable name="results" type="org.revapi.gradle.AnalysisResults" -->
 <#list results.results() as result>
 ${result.code()}<#if result.description()??>: ${result.description()}</#if>
 

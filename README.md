@@ -18,7 +18,7 @@ Using the plugin should be as simple as:
         // ...
 
         dependencies {
-            classpath 'org.revapi.gradle.revapi:gradle-revapi:<latest-version>'
+            classpath 'org.revapi:gradle-revapi:<latest-version>'
         }
     }
     ```
