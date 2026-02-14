@@ -265,7 +265,7 @@ class RevapiSpec extends IntegrationSpec {
             .gradle*/
             build/
             mavenRepo/
-        """.stripIndent()
+            """.stripIndent()
 
         rootProjectNameIs 'name'
 
